@@ -18,8 +18,8 @@
 
         </ul>
         <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Busqueda de heroes" aria-label="Search">
-            <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
+            <input class="form-control mr-sm-2" type="search" placeholder="Busqueda de heroes" (keyup.enter)="buscarHeroe(searchText.value)" #searchText>
+            <button (click)="buscarHeroe(searchText.value)" class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
 </nav>

@@ -12,6 +12,8 @@ import { AboutComponent } from './components/shared/about/about.component';
 import {HeroeComponent} from './components/shared/heroe/heroe.component'
 
 import {HeroesService} from './components/services/heroes.service';
+import { SearchHerosComponent } from './components/shared/search-heros/search-heros.component';
+import { HeroCardComponent } from './components/shared/hero-card/hero-card.component';
 
 
 
@@ -22,7 +24,9 @@ import {HeroesService} from './components/services/heroes.service';
     HomeComponent,
     HeroesComponent,
     AboutComponent,
-    HeroeComponent
+    HeroeComponent,
+    SearchHerosComponent,
+    HeroCardComponent
     
   ],
   imports: [
