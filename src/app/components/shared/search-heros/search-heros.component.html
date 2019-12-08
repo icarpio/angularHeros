@@ -9,5 +9,5 @@
 
 <div class="card-columns bodyhome">
     <!-- *ngFor="let he of heroes;let i = index" -->
-    <app-hero-card [heroe]="hero" [index]="i" *ngFor="let hero of heroes;let i = index"></app-hero-card>
+    <app-hero-card [heroe]="hero" [index]="hero.idx" *ngFor="let hero of heroes;let i = index"></app-hero-card>
 </div>
